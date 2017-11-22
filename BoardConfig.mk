@@ -24,6 +24,7 @@ BOARD_VENDOR := motorola-qcom
 WITH_DEXPREOPT := true
 
 # AIDs and CAPS
+TARGET_ALLOW_LEGACY_AIDS := true
 TARGET_FS_CONFIG_GEN := \
     $(DEVICE_PATH)/fs_config/mot_aids.txt \
     $(DEVICE_PATH)/fs_config/file_caps.txt
